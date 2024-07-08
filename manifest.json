@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "We-Infinite",
+  "version": "1.0",
+  "description": "Access WordPress dashboards for Coherence Communication websites.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs",
+    "https://www.coherence-communication.masiwe.fr/v3/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
